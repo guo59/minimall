@@ -1,0 +1,4 @@
+/* components/g-swiper/g-swiper.wxss */
+.image {
+  width: 100%;
+}

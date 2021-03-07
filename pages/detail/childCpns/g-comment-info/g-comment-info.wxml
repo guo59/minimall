@@ -1,0 +1,23 @@
+<!--pages/detail/childCpns/g-comment-info/g-comment-info.wxml-->
+<wxs src='../../../../filter/formateTime.wxs' module="filter"/>
+
+<view class="comment-info">
+  <view class="header">
+    <view>用户评价</view>
+    <view>更多>></view>
+  </view>
+  <view class="user">
+    <image src="{{commentInfo.user.avatar}}" class="avatar"/>
+    <text class="name">{{commentInfo.user.uname}}</text>
+  </view>
+  <view class="content">{{commentInfo.content}}</view>
+  <view class="other-info">
+    <view class="create-time">{{filter.formatDate(commentInfo.created, 'notime')}}</view>
+    <view class="style">{{commentInfo.style}}</view>
+  </view>
+  <view class="picture">
+    <block wx:for="{{commentInfo.images}}" wx:key='index'>
+      <image src="{{item}}" mode="widthFix" class="image"/>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,3 @@
+<!--pages/detail/childCpns/g-recommend-info/g-recommend-info.wxml-->
+<view class="title">商品推荐</view>
+<g-goods goods='{{recommends}}'/>

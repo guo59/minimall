@@ -1,0 +1,5 @@
+<!--components/g-check-icon/g-check-icon.wxml-->
+<icon type="success"
+      class="check-icon icon"
+      size='22'
+      color="{{isChecked ? '#ff5777' : '#fff'}}"/>

@@ -1,0 +1,28 @@
+/* components/g-goodsItem/g-goodsItem.wxss */
+.goodsItem {
+  margin-bottom: 20rpx;
+  text-align: center;
+}
+.show-img {
+  width: 100%;
+  border-radius: 10rpx;
+}
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 32rpx;
+  text-overflow: ellipsis;
+}
+.info {
+  font-size: 30rpx;
+}
+.price {
+  color: #ff5777;
+}
+.icon {
+  width: 38rpx;
+  height: 38rpx;
+  position: relative;
+  top: 8rpx;
+  margin: 0 6rpx 0 20rpx;
+}

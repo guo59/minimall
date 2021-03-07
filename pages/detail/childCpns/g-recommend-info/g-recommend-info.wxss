@@ -1,0 +1,4 @@
+/* pages/detail/childCpns/g-recommend-info/g-recommend-info.wxss */
+.title {
+  margin: 20rpx;
+}

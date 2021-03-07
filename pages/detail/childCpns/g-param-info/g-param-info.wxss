@@ -1,0 +1,20 @@
+/* pages/detail/childCpns/g-param-info/g-param-info.wxss */
+.param-info {
+  border-bottom: 20rpx solid #f2f2f2;
+  font-size: 32rpx;
+}
+.row {
+  display: flex;
+  border-bottom: solid 1px #f2f2f2;
+  padding: 30rpx;
+}
+.size-item {
+  flex: 1;
+}
+.key {
+  width: 130rpx;
+}
+.value {
+  flex: 1;
+  color: #ff5777;
+}

@@ -1,0 +1,35 @@
+/* pages/detail/childCpns/g-bottom-bar/g-bottom-bar.wxss */
+.bottom-bar {
+  display: flex;
+  height: 120rpx;
+  text-align: center;
+  font-size: 30rpx;
+  box-shadow: 0 -1px 1px rgba(100, 100, 100, .2);
+}
+.left-bar {
+  flex: 1;
+  display: flex;
+}
+.left-item {
+  flex: 1;
+}
+.icon {
+  width: 50rpx;
+  height: 50rpx;
+  padding: 20rpx 0 6rpx;
+}
+.right-bar {
+  flex: 1;
+  display: flex;
+  line-height: 120rpx;
+}
+.right-item {
+  flex: 1;
+}
+.cart {
+  background-color: #ffe817;
+}
+.buy {
+  background-color: #ff5777;
+  color: #fff;
+}

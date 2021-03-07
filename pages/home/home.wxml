@@ -1,0 +1,13 @@
+<!--pages/home/home.wxml-->
+<g-swiper list='{{banners}}'/>
+<g-recommend recommends='{{recommends}}' bind:imageLoad='handleImgLoad'/>
+<g-popular/>
+<tab-control titles='{{titles}}'
+             bind:itemClick='handleTabClick'
+             class="{{isTabFixed ? 'fixed' : ''}}"
+             id="tab-control"/>
+<tab-control titles='{{titles}}' bind:itemClick='handleTabClick' wx:if="{{isTabFixed}}"/>
+
+
+<g-goods goods='{{goods[currentType].list}}'/>
+<g-backTop wx-if='{{isShowBack}}' bindtap="handleBackTop"/>

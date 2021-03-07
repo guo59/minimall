@@ -1,0 +1,8 @@
+<!--pages/category/childCpns/g-menu/g-menu.wxml-->
+<scroll-view scroll-y class="menu">
+  <block wx:for="{{menuList}}" wx:key='index'>
+    <view class="menu-item {{currentIndex == index ? 'active': ''}}"
+          bindtap="handleMenuClick"
+          data-index="{{index}}">{{item.title}}</view>
+  </block>
+</scroll-view>

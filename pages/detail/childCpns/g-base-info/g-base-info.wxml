@@ -1,0 +1,26 @@
+<!--pages/detail/childCpns/g-base-info/g-base-info.wxml-->
+<view class="base-info">
+  <view class="title">{{baseInfo.title}}</view>
+  <view class="price-info">
+    <text class="newPrice">{{baseInfo.price}}</text>
+    <text class="oldPrice">{{baseInfo.oldPrice}}</text>
+    <text style="background-color: {{baseInfo.discountBgColor}}" 
+          class="discount"
+          wx:if="{{baseInfo.discount}}">{{baseInfo.discount}}</text>
+  </view>
+  <view class="sell-info">
+    <block wx:for="{{baseInfo.columns}}" wx:key='index'>
+      <view class="sell-item">{{item}}</view>
+    </block>
+  </view>
+  <view class="service">
+    <block wx:for="{{baseInfo.services}}" wx:key='index'>
+     <block wx:if="{{index !== 0}}">
+       <view class="service-item">
+        <image src="{{item.icon}}" class="icon"/>
+        <text>{{item.name}}</text>
+       </view>
+     </block>
+    </block>
+  </view>
+</view>

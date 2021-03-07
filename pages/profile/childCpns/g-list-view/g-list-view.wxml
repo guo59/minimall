@@ -1,0 +1,9 @@
+<!--pages/profile/childCpns/g-list-view/g-list-view.wxml-->
+<view class="list-view">
+  <block wx:for="{{infos}}" wx:key='index'>
+    <view class="list-item">
+      <image src="/assets/profile/{{item.icon}}" class="icon" mode="widthFix"/>
+      <text>{{item.info}}</text>
+    </view>
+  </block>
+</view>

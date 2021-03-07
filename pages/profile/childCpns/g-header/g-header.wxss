@@ -1,0 +1,32 @@
+/* pages/profile/childCpns/g-header/g-header.wxss */
+.header {
+  display: flex;
+  background: #ff5777;
+  color: #fff;
+  font-size: 32rpx;
+  padding: 30rpx 0;
+}
+.avatar {
+  margin: 0 30rpx;
+}
+.avatar-img {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  background: #fff;
+}
+.login-info {
+  flex: 1;
+}
+.login {
+  margin-bottom: 10rpx;
+}
+.phone-icon {
+  width: 50rpx;
+}
+.arrow {
+  width: 100rpx;
+}
+.arrow-icon {
+  width: 80rpx;
+}

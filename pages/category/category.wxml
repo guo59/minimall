@@ -1,0 +1,6 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+  <g-menu menuList='{{menuList}}' bind:menuClick='handleMenuClick'/>
+  <g-content subcategory = '{{categoryData[currentIndex].subcategories}}'
+             categoryDetail = '{{categoryData[currentIndex].categoryDetail}}'/>
+</view>

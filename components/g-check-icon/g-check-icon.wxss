@@ -1,0 +1,5 @@
+/* components/g-check-icon/g-check-icon.wxss */
+.check-icon {
+  border: 1px #aaa solid;
+  border-radius: 50%;
+}

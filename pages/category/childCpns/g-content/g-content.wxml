@@ -1,0 +1,13 @@
+<!--pages/category/childCpns/g-content/g-content.wxml-->
+<scroll-view scroll-y class="content">
+  <view class="subcategory">
+  <block wx:for="{{subcategory}}" wx:key='index'>
+    <view class="sub-item">
+      <image src="{{item.image}}" class="image" mode="widthFix"/>
+      <view class="title">{{item.title}}</view>
+    </view>
+  </block>
+</view>
+
+<g-goods goods='{{categoryDetail}}' class="detail"/>
+</scroll-view>

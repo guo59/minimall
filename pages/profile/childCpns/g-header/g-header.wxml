@@ -1,0 +1,16 @@
+<!--pages/profile/childCpns/g-header/g-header.wxml-->
+<view class="header">
+  <view class="avatar">
+    <image src="/assets/profile/avatar.png" class="avatar-img"/>
+  </view>
+  <view class="login-info">
+    <view class="login">登录/注册</view>
+    <view class="phone">
+      <image src="/assets/profile/phone.png" class="phone-icon" mode="widthFix"/>
+      <text>暂无绑定手机号</text>
+    </view>
+  </view>
+  <view class="arrow">
+    <image src="/assets/common/arrow-right.png" class="arrow-icon" mode="widthFix"/>
+  </view>
+</view>
